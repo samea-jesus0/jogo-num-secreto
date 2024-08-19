@@ -1,5 +1,5 @@
 let listaDeNumerosSorteados = [];
-let numeroLimite = 10;
+let numeroLimite = 100;
 let numeroSecreto = gerarNumeroAleatorio(); //aqui a função esta sendo usada realmente, a armazenando
 let tentativas = 1;
 
@@ -12,7 +12,7 @@ function exibirTextoNaTela(tag, texto){
 
 function exibirMensagemInicial() {
     exibirTextoNaTela('h1', 'Jogo do número secreto'); //todo lugar que tiver tag vai ser substituido pelo h1
-    exibirTextoNaTela('p', 'Escolha um número entre 1 e 10'); //todo lugar que tiver tag vai ser substituido pelo h1
+    exibirTextoNaTela('p', 'Escolha um número entre 1 e 100'); //todo lugar que tiver tag vai ser substituido pelo h1
     
 }
 
